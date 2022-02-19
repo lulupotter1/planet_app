@@ -32,7 +32,7 @@ class PlanetScreen extends StatelessWidget {
               CustomSunWidget(
                   centerOffset: centerOffset,
                   planetModel: PlanetModel(
-                      angularVelocity: 20, distance: 0, diameter: 200)),
+                      angularVelocity: 20, distance: 0, diameter: 500)),
               if (planetList.isNotEmpty)
                 for (int i = 0; i < planetList.length; i++)
                   CustomPlanetWidget(
